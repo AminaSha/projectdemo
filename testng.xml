@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="8" parallel="classes" name="Test">
+		<classes>
+			<class name="testcases.UrlTitle" />
+			<class name="testcases.TestLogin" />
+			<class name="testcases.ProfileTestNG" />
+			<class name="testcases.ProjectSearchTestng" />
+			<class name="testcases.BugTestng" />
+			<class name="testcases.OpportunitiesTestng" />
+			<class name="testcases.TaskTestng" />
+			<class name="testcases.SignOutTestng" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
